@@ -1,4 +1,4 @@
-MAP = hash.new
+MAP = Hash.new
 MAP['.-'] = 'A'
 MAP['-...'] = 'B'
 MAP['-.-.'] = 'C'
@@ -52,5 +52,9 @@ end
 def decode(message)
   words = message.split('   ')
   words = words.map { |word| decode_word(word) }
-  return words.join('')
+  return words.join(' ')
 end
+
+puts 'Enter morse code:'
+input = gets.chomp()
+puts decode(input)
