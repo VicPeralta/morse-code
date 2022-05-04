@@ -17,11 +17,11 @@ To get a local copy follow these simple example steps.
 1.- Open the terminal window and clone the repository using this command:  
 `git@github.com:VicPeralta/morse-code.git` 
 
-2.- Change the directory to the chess-leaders directory  
+2.- Change the directory to the morse-code directory  
 `cd morse-code`  
 3.- Install the project's dependencies by running this command:   
 `bundle install`  
-4.- Generate the dist folder using this command:  
+4.- Run the program using this command:  
 `ruby ./morse.rb`  
 
 
