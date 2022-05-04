@@ -8,7 +8,7 @@
 - Ruby
 
 
-<img src="./morse-code.png" width="50%" height="auto">
+<img src="./morse-code.PNG" width="50%" height="auto">
 
 ## Getting Started
 
