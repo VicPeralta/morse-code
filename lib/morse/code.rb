@@ -1,4 +1,4 @@
-require "morse/code/version"
+require 'morse/code/version'
 
 module Morse
   module Code
