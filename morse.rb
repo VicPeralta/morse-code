@@ -41,7 +41,7 @@ def decode_char(char)
 end
 
 def decode_word(word)
-  characters = word.spli(' ')
+  characters = word.split(' ')
   decode_word = ''
   characters.each do |c|
     decode_word += decode_char(c)
@@ -51,4 +51,6 @@ end
 
 def decode(message)
   words = message.split('   ')
+  words = words.map { |word| decode_word(word) }
+  return words.join('')
 end
